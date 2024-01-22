@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
+    <color name="system_background_dark">#FF000000</color>
+    <color name="system_error_dark">#FFFFFFFF</color>
+    <color name="system_error_container_dark">#FFFFFFFF</color>
+    <color name="system_on_surface_light">#FFFFFFFF</color>
+    <color name="system_primary_light">#FFFFFFFF</color>
+    <color name="system_surface_light">#FFFFFFFF</color>
+    <color name="system_on_background_dark">#FFFFFFFF</color>
+    <color name="system_on_error_dark">#FFFFFFFF</color>
+    <color name="system_on_error_container_dark">#FFFFFFFF</color>
+    <color name="system_on_primary_dark">#FFFFFFFF</color>
+    <color name="system_on_primary_container_dark">#FFFFFFFF</color>
+    <color name="system_on_secondary_dark">#FFFFFFFF</color>
+    <color name="system_on_secondary_container_dark">#FFFFFFFF</color>
+    <color name="system_on_surface_dark">#FFFFFFFF</color>
+    <color name="system_on_surface_variant_dark">#FFFFFFFF</color>
+    <color name="system_on_tertiary_dark">#FFFFFFFF</color>
+    <color name="system_on_tertiary_container_dark">#FFFFFFFF</color>
+    <color name="system_outline_dark">#FFFFFFFF</color>
+    <color name="system_outline_variant_dark">#FFFFFFFF</color>
+    <color name="system_primary_dark">#FFFFFFFF</color>
     <color name="white">#FFFFFFFF</color>
 </resources>
