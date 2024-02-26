@@ -15,7 +15,7 @@ afterEvaluate {
                 // 添加库的元数据
                 groupId = "com.github.itsjameswang"
                 artifactId = "android-demo-lib"
-                version = "1.1"
+                version = "1.2"
             }
         }
         repositories {               // << --- ADD This
