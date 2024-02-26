@@ -8,6 +8,7 @@ import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
 import org.json.JSONException
 
+
 class MSParser(private val mContext: Context) {
     private val mRequestQueue: RequestQueue
 
@@ -38,7 +39,8 @@ class MSParser(private val mContext: Context) {
                 } catch (e: JSONException) {
                     throw RuntimeException(e)
                 }
-            }) { error: VolleyError -> error.printStackTrace() }
+            }
+        ) { error: VolleyError -> error.printStackTrace() }
         mRequestQueue.add(request)
     }
 }
